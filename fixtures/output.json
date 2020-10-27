@@ -3,6 +3,7 @@
   "properties": {
     "nickName": {
       "type": "string",
+      "example": "鹄思乱想",
       "examples": [
         "鹄思乱想"
       ],
@@ -20,9 +21,13 @@
       "format": "email"
     },
     "facebookId": {
-      "type": [
-        "string",
-        "null"
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "string"
+        }
       ]
     },
     "ip": {
@@ -79,6 +84,7 @@
             "properties": {
               "name": {
                 "type": "string",
+                "example": "teleport",
                 "examples": [
                   "teleport"
                 ],
@@ -86,6 +92,7 @@
               },
               "level": {
                 "type": "integer",
+                "example": 10,
                 "examples": [
                   10
                 ],
