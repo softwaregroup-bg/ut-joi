@@ -1,3 +1,12 @@
+## [1.4.2](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.1...v1.4.2) (2020-10-27)
+
+
+### Bug Fixes
+
+* add ignore presence ([ed4e91f](https://github.com/softwaregroup-bg/ut-joi/commit/ed4e91fbb5f6353d59f2243ddb6b96a95031cd28))
+
+
+
 ## [1.4.1](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.0...v1.4.1) (2020-10-27)
 
 
