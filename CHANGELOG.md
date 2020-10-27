@@ -1,3 +1,12 @@
+## [1.4.1](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.0...v1.4.1) (2020-10-27)
+
+
+### Bug Fixes
+
+* null and examples handling ([b30ab19](https://github.com/softwaregroup-bg/ut-joi/commit/b30ab191280d231891f7f022391ef66f8b211e0c))
+
+
+
 # 1.4.0 (2020-10-27)
 
 
