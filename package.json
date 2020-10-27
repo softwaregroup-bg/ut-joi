@@ -16,12 +16,10 @@
     "schema"
   ],
   "dependencies": {
-    "lodash": "^4.17.15",
-    "semver-compare": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "jest": "^25.1.0",
+    "jest": "^26.6.1",
     "jest-expect-message": "^1.0.2",
     "joi-12": "npm:@commercial/joi@^12.1.0",
     "joi-13": "npm:joi@^13.7.0",

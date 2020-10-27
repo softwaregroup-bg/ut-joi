@@ -45,7 +45,8 @@
       "default": "Male",
       "enum": [
         "Male",
-        "Female"
+        "Female",
+        ""
       ]
     },
     "height": {

@@ -1,43 +1,24 @@
-const cmp = require('semver-compare')
-const DEFAULT_PARSER = require('./lib/parser_base')
-
+const DEFAULT_PARSER = require('./lib/parser_base');
 const parsers = [
-  require('./lib/parser_v16'),
-  require('./lib/parser_v14'),
-  DEFAULT_PARSER
-]
+    require('./lib/parser_v16'),
+    require('./lib/parser_v14')
+];
 
-function convert(joiObj, debug) {
-  let parser
+function convert(joiObj) {
+    let Parser;
 
-  for (let i = 0; i < parsers.length; i++) {
-    const tmpParser = parsers[i]
-    try {
-      let version = tmpParser.getVersion(joiObj)
-      let result = cmp(tmpParser.getSupportVersion(), version)
-      if (result <= 0) {
-        // The first parser has smaller or equal version
-        parser = tmpParser
-        break
-      }
-    } catch (e) {
-      // Format does not match this parser version.
-      // Skip to check the next one
-      continue
+    for (const tmpParser of parsers) {
+        const version = tmpParser.getVersion(joiObj);
+        if (!version) continue;
+        if (parseInt(tmpParser.getSupportVersion(), 10) <= parseInt(version.split('.')[0], 10)) {
+            // The first parser has smaller or equal version
+            Parser = tmpParser;
+            break;
+        }
     }
-  }
 
-  if (!parser) {
-    console.warn('No parser available, using the default one')
-    parser = DEFAULT_PARSER
-  }
-
-  const parserObj = new parser(joiObj)
-  if (debug) {
-    console.debug(`Parser of verison ${parser.getSupportVersion()} is chosen.\n`)
-    console.debug(`Joi Object Describe Result as below:\n${JSON.stringify(parserObj.joiDescribe, null, 2)}\n`)
-  }
-  return parserObj.jsonSchema
+    if (!Parser) Parser = DEFAULT_PARSER;
+    return new Parser(joiObj).jsonSchema;
 }
 
-module.exports = convert
+module.exports = {convert};
