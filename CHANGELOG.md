@@ -1,3 +1,18 @@
+## [1.4.3](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.2...v1.4.3) (2022-01-17)
+
+
+### Bug Fixes
+
+* simplify schema ([3b420d7](https://github.com/softwaregroup-bg/ut-joi/commit/3b420d7dfcd1e470c75dee893f98a6cb61817392))
+* simplify schema ([09b329b](https://github.com/softwaregroup-bg/ut-joi/commit/09b329b064d21532ffd6e3da3f4fcd5971956b13))
+* simplify schema ([2d0b2d6](https://github.com/softwaregroup-bg/ut-joi/commit/2d0b2d61e724452bf1904a2f1fe8a41b65811eea))
+* simplify schema ([5169c16](https://github.com/softwaregroup-bg/ut-joi/commit/5169c162515f31d8417af717f57c41df0949809c))
+* simplify schema ([f5bcc34](https://github.com/softwaregroup-bg/ut-joi/commit/f5bcc34451256389c503d8c954727a3f0cd148bd))
+* simplify schema ([333afc3](https://github.com/softwaregroup-bg/ut-joi/commit/333afc381db9047b70853eb07ea84e9013e0433b))
+* simplify schema ([63e6726](https://github.com/softwaregroup-bg/ut-joi/commit/63e672698ccf8b9f74ef019e89c89c64cd67d4b9))
+
+
+
 ## [1.4.2](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.1...v1.4.2) (2020-10-27)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "ut-joi",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "joi to JSON Schema Converter",
   "main": "index.js",
   "scripts": {
