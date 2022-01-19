@@ -1,3 +1,12 @@
+## [1.4.4](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.3...v1.4.4) (2022-01-19)
+
+
+### Bug Fixes
+
+* handle label ([57ee879](https://github.com/softwaregroup-bg/ut-joi/commit/57ee879fca75f3435ad7a526479729ac28919a36))
+
+
+
 ## [1.4.3](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.2...v1.4.3) (2022-01-17)
 
 
