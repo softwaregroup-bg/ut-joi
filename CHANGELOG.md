@@ -1,3 +1,12 @@
+## [1.4.6](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.5...v1.4.6) (2022-01-19)
+
+
+### Bug Fixes
+
+* improve date format handling ([0934003](https://github.com/softwaregroup-bg/ut-joi/commit/0934003171baa65310c610ecb53390d61ed75dca))
+
+
+
 ## [1.4.5](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.4...v1.4.5) (2022-01-19)
 
 
