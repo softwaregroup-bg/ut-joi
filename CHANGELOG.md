@@ -1,3 +1,12 @@
+## [1.4.5](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.4...v1.4.5) (2022-01-19)
+
+
+### Bug Fixes
+
+* improve integer detection ([e713342](https://github.com/softwaregroup-bg/ut-joi/commit/e713342b826fd4cbe764ff50e1c3aa515f859aa3))
+
+
+
 ## [1.4.4](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.3...v1.4.4) (2022-01-19)
 
 
