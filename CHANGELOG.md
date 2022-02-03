@@ -1,3 +1,12 @@
+## [1.4.7](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.6...v1.4.7) (2022-02-03)
+
+
+### Bug Fixes
+
+* generate example for const ([29d944d](https://github.com/softwaregroup-bg/ut-joi/commit/29d944d7b2450b81a9c88414483a11cdf73a21c6))
+
+
+
 ## [1.4.6](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.5...v1.4.6) (2022-01-19)
 
 
