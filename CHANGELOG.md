@@ -1,3 +1,12 @@
+## [1.4.8](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.7...v1.4.8) (2022-03-08)
+
+
+### Bug Fixes
+
+* do not repeat the title ([5056a51](https://github.com/softwaregroup-bg/ut-joi/commit/5056a51d190377e39d593b6550d06fe8746f0e92))
+
+
+
 ## [1.4.7](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.6...v1.4.7) (2022-02-03)
 
 
