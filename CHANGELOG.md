@@ -1,3 +1,12 @@
+## [1.4.9](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.8...v1.4.9) (2022-06-21)
+
+
+### Bug Fixes
+
+* improve swagger and openapi compatibility ([6a63f11](https://github.com/softwaregroup-bg/ut-joi/commit/6a63f111151243142a8e6f23f475b7389e9b9a3a))
+
+
+
 ## [1.4.8](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.7...v1.4.8) (2022-03-08)
 
 
