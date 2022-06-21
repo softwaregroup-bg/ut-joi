@@ -42,7 +42,7 @@
     "joi-16": "npm:@hapi/joi@^16.1.8",
     "joi-17": "npm:@hapi/joi@^17.1.0",
     "jsonschema": "^1.4.0",
-    "ut-tools": "^6.34.2"
+    "ut-tools": "^6.41.5"
   },
   "repository": {
     "type": "git",

@@ -4,7 +4,7 @@ const parsers = [
     require('./lib/parser_v14')
 ];
 
-function convert(joiObj) {
+function convert(joiObj, mode = 'openapi') {
     let Parser;
 
     for (const tmpParser of parsers) {
@@ -18,7 +18,7 @@ function convert(joiObj) {
     }
 
     if (!Parser) Parser = DEFAULT_PARSER;
-    return new Parser(joiObj).jsonSchema;
+    return new Parser(joiObj, {mode}).jsonSchema;
 }
 
 module.exports = {convert};
