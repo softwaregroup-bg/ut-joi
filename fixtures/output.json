@@ -121,13 +121,12 @@
       "format": "binary"
     },
     "notes": {
-      "type": [
-        "array",
-        "boolean",
-        "number",
-        "object",
-        "string",
-        "null"
+      "oneOf": [
+        {"type": "array"},
+        {"type": "boolean"},
+        {"type": "number"},
+        {"type": "object"},
+        {"type": "string"}
       ]
     },
     "meta": {

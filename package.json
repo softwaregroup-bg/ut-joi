@@ -19,6 +19,7 @@
     "pretest": "ut-pretest",
     "preversion": "ut-preversion",
     "test": "jest",
+    "jest": "jest",
     "version": "ut-version",
     "jenkins": "ut-jenkins",
     "gitlab": "ut-gitlab"
