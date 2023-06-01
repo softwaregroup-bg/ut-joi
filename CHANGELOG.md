@@ -1,3 +1,12 @@
+## [1.4.10](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.9...v1.4.10) (2023-06-01)
+
+
+### Bug Fixes
+
+* omit forbidden keys from schema ([5f617ea](https://github.com/softwaregroup-bg/ut-joi/commit/5f617ea4430c83054d28a84da6bcc487fc491e4f))
+
+
+
 ## [1.4.9](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.8...v1.4.9) (2022-06-21)
 
 
