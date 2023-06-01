@@ -35,5 +35,6 @@ module.exports = joi.object().keys({
     }),
     nested: joiAllowUnknown.object().keys({
         key: joiAllowUnknown.string()
-    })
+    }),
+    forbidden: joi.forbidden()
 });
