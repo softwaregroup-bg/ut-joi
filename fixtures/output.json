@@ -68,7 +68,7 @@
       "maxItems": 3,
       "uniqueItems": true,
       "items": {
-        "oneOf": [
+        "anyOf": [
           {
             "type": "string"
           },
