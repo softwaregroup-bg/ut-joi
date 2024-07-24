@@ -1,3 +1,12 @@
+## [1.4.11](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.10...v1.4.11) (2024-07-24)
+
+
+### Bug Fixes
+
+* joi alternatives to produce anyOf instead of oneOf jsonschema output ([69d3dbc](https://github.com/softwaregroup-bg/ut-joi/commit/69d3dbcebb05ed0140bddbf2018e959d25ed61a8))
+
+
+
 ## [1.4.10](https://github.com/softwaregroup-bg/ut-joi/compare/v1.4.9...v1.4.10) (2023-06-01)
 
 
